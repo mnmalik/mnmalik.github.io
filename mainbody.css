@@ -1,0 +1,167 @@
+/*NAVBAR*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+li {
+    float: right;
+}
+
+li a, .dropbtn {
+    display: inline-block;
+    color: red;
+    text-align: center;
+    padding: 10px 12px;
+    text-decoration: none;
+}
+
+li a:hover, .dropdown:hover .dropbtn {
+    text-decoration: underline;
+}
+
+li.dropdown {
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    min-width: 160px;
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.dropdown-content a:hover {background-color: #f1f1f1;}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+/*// BODY*/
+   body{
+       padding: 2%;
+       background-color: whitesmoke;
+
+   }
+
+/*//DIVS*/
+  div{
+      text-align: center;
+      padding: 3%;
+  }
+
+h1{
+    font-size: 12em;
+}
+
+
+/*//div for about section*/
+  div.about{
+      color: black;
+      font-family: Monospaced, serif;
+      font-size: 2.1em;
+      padding: 1%;
+  }
+
+/*//responsive images*/
+  .responsive {
+      width: 100%;
+      height: auto;
+  }
+
+/*//FOR IMAGES IN WEBDEV*/
+  .container {
+      align-items: center;
+      padding: 5%;
+      position: relative;
+      width: 50%;
+  }
+
+.image {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+}
+
+.container:hover .overlay {
+    opacity: 0.9;
+}
+
+.text {
+    color: white;
+    font-size: 20px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+/*//paragraph text in 2d animation*/
+                     .videos{
+                         padding: 2%;
+                         color: black;
+                         font-size: 1.0em;
+                     }
+
+/*//footer icons for social*/
+
+  .fa {
+      padding: 20px;
+      font-size: 30px;
+      width: 30px;
+      text-align: center;
+      text-decoration: none;
+      margin: 5px 2px;
+      border-radius: 50%;
+  }
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+.fa.fa-github {
+    background: gray;
+    color: white;
+}
+
+
+
